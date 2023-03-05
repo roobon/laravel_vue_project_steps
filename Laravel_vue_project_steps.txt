@@ -1,21 +1,51 @@
-Project Creation and configure
+Step1: Project Creation and configure
 
-Step1: composer create-project laravel/laravel laravel_vue_project_steps
-Step2: cd laravel_vue_project_steps
-Step3: code .
-Step4: .env configure with database
-Step5: php artisan serve
+composer create-project laravel/laravel laravel_vue_project_steps
+cd laravel_vue_project_steps
+code .
+.env configure with database
+php artisan serve
 
 
-Adding git Repository
+Step2: Adding git Repository
 
-Step6: Create a git repository
-Step7: give command in local project directory
+Create a git repository
+https://github.com/roobon/laravel_vue_project_steps
+
+Step3: Linking github repository
 
 git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/roobon/laravel_vue_project_steps.git
+git push -u origin master
 
-Step8: 
+
+Step4: Make Authentication
+
+composer require laravel/ui
+php artisan ui vue --auth
+
+
+Step5: Node Package Manager and compling javascript and css files
+npm install
+npm run dev / npm run watch
+
+
+Step6: Create Table with all migrations
+php artisan migrate
+
+
+Step7: Registration and Login
+php artisan serve
+http://127.0.0.1:8000/
 
 
 
-Make Authentication
+Step8: Product Migration, Model, Controller
+
+
+
+
+
+
