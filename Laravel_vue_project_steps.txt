@@ -1,0 +1,21 @@
+Project Creation and configure
+
+Step1: composer create-project laravel/laravel laravel_vue_project_steps
+Step2: cd laravel_vue_project_steps
+Step3: code .
+Step4: .env configure with database
+Step5: php artisan serve
+
+
+Adding git Repository
+
+Step6: Create a git repository
+Step7: give command in local project directory
+
+git init
+
+Step8: 
+
+
+
+Make Authentication
